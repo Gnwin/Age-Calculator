@@ -1,0 +1,44 @@
+﻿div h1 {
+    color: white;
+    text-align: center
+}
+
+#dayslived {
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+
+var--age {
+    background-color: #c036e2;
+}
+
+
+.holder button {
+    margin-left: 45%;
+}
+
+form h3 {
+    text-align: center;
+}
+
+.auto {
+    text-align: center;    
+}
+
+#userinput button {
+    margin-left: 45%;
+    margin-top: 20px; 
+}
+
+.holder {
+    border: 15px solid #c036e2;
+    max-width: 700px;
+    width: 80%;
+    margin: 100px auto;
+    padding: 0 20px;
+    font-family: 'Source Sans Pro';
+    background-color:rgb(255, 0, 140);
+}
+

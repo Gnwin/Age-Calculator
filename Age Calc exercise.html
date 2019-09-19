@@ -1,0 +1,46 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Age Calulator Exercise</title>
+    <link rel="stylesheet" href="Age Calc exercise.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="holder">
+        <h1>Age Calculator</h1>
+
+        <button class='btn btn-success btn-xs' id='start'>Lets Start!</button>   
+        
+        <form onsubmit="calcAge(); return false" method='' id='userinput'>
+            <h3>Lets see how long you have lived on earth</h3>
+            <div class="auto">
+            <label for="agebox">Age:</label>
+            <input type="text" id="agebox" name="yourage" maxlength='3' title="Pls fill in three or less digits." required>
+            </div>
+            <button id='calculate'>Calculate</button>
+        </form>
+
+
+        <p id='dayslived'></p>
+
+        <script src="Age Calc exercise.js" defer></script>
+
+    </div>
+
+    
+
+    <script src="http://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous" defer></script>
+    
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" defer></script>
+
+
+</body>
+</html>
